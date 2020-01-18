@@ -1,9 +1,9 @@
 
 body{
-    border:solid red;
+    /* border:solid red; */
     padding:10px;
     background-color:black;
-    height:100vh;
+    height:250vh;
     font-family:serif;
 }
 .nav{
@@ -33,15 +33,14 @@ body{
 }
 
 .parent{
-    /* border:solid green; */
-    height:85vh;
+    height:100vh;
     background-image: linear-gradient(to bottom,orange,red, purple,blue);
-
+    display:flex;
     
 }
 .link-stretch{
     color:yellow;
-    font-size:25px;
+    font-size:22px;
 }
 #link-flat{
     /* border:solid lemonchiffon; */
@@ -72,4 +71,36 @@ body{
     padding:12px;
     transition:.4s;
 
+}
+.drop{
+    border:solid lemonchiffon;
+    height:90vh;
+    width:20%;
+    margin-right:20%;
+    text-align:center;
+}
+.drp-link{
+    border:solid lemonchiffon;
+    border-width:2px;
+    margin:20px;
+    color:lemonchiffon;
+    padding:2px;
+}
+.drp-link:hover{
+    /* border:solid green; */
+    margin:20px;
+    color:blue; 
+    background-color:lemonchiffon;
+    border-width:2px;
+}
+.cbsMain{
+    width:100%;
+    height:65vh;
+    
+    /* margin-left:10%; */
+}
+.footLogo{
+    width:90%;
+    /* margin-left:18%; */
+    height:500px;
 }
