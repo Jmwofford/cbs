@@ -1,0 +1,75 @@
+
+body{
+    border:solid red;
+    padding:10px;
+    background-color:black;
+    height:100vh;
+    font-family:serif;
+}
+.nav{
+    border:solid yellow;
+    background-color:yellow;
+    display:flex;
+}
+#nav-element{
+    width:20%;
+    text-align: center;
+    height:60;
+    margin:2px;
+    color:blue;
+    padding:10px;
+    
+}
+#nav-element:hover{
+    width:20%;
+    text-align: center;
+    height:20%;
+    margin:10px;
+    color:white;
+    padding:10px;
+    background-color:blue;
+    transition:.5;
+    
+}
+
+.parent{
+    /* border:solid green; */
+    height:85vh;
+    background-image: linear-gradient(to bottom,orange,red, purple,blue);
+
+    
+}
+.link-stretch{
+    color:yellow;
+    font-size:25px;
+}
+#link-flat{
+    /* border:solid lemonchiffon; */
+    text-align:center;
+    padding:12px;
+    margin:42px;
+}
+#link-flat:hover{
+    border:solid lemonchiffon;
+    text-align:center;
+    padding:12px;
+    margin:42px;
+    background-color: grey;
+}
+.slogan{
+    color:white;
+    font-size:28px;
+    border:solid grey;
+    text-align:center;
+    padding:12px;
+
+}
+.slogan:hover{
+    color:white;
+    font-size:35px;
+    border:solid grey;
+    text-align:center;
+    padding:12px;
+    transition:.4s;
+
+}
